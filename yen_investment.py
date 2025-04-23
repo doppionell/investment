@@ -34,7 +34,7 @@ result = yen_investment_analysis(input_data.iloc[0])
 st.dataframe(result)
 
 # 종합 점수 강조
-st.markdown(f"### ✅ 투자 종합 점수: **{result['Investment Score (총점)'].values[0]} / 20점**")
+st.markdown(f"### ✅ 투자 종합 점수: **{result['Investment Score (총점)']} / 20점**")
 
 # 안내
 st.markdown("""
